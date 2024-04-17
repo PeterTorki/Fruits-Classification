@@ -1,0 +1,20 @@
+{
+    "workspace": {
+        "name": "Untitled Workspace",
+        "theme": "https://abstra-cloud-assets.s3.amazonaws.com/backgrounds/gradient/lake.jpg",
+        "brand_name": "Abstra",
+        "logo_url": "",
+        "main_color": "#115F90",
+        "font_family": "Inter",
+        "font_color": "#ffffff",
+        "sidebar": [
+            {
+                "id": "helloworld",
+                "name": "helloworld",
+                "path": "helloworld",
+                "visible": false,
+                "type": "dash"
+            }
+        ]
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "name": "Hello World",
+    "layout": {
+        "props": {},
+        "version": "0.2",
+        "slot": {
+            "c5997b67-999a-4b62-ae8d-d28b2c3d7f34": {
+                "id": "c5997b67-999a-4b62-ae8d-d28b2c3d7f34",
+                "type": "click-input",
+                "props": {
+                    "label": "\"Learning!\""
+                },
+                "colStart": 3,
+                "rowStart": 18,
+                "colEnd": 4,
+                "rowEnd": 19,
+                "events": {
+                    "click": "predict_image()"
+                }
+            },
+            "e0282c46-6915-4e0c-8833-93f77bb3be9d": {
+                "id": "e0282c46-6915-4e0c-8833-93f77bb3be9d",
+                "type": "text-output",
+                "props": {
+                    "text": "text",
+                    "size": "'large'"
+                },
+                "colStart": 3,
+                "rowStart": 15,
+                "colEnd": 9,
+                "rowEnd": 16,
+                "events": {}
+            },
+            "73570f8b-f7e6-4bd7-8dc8-0481dfec3cc4": {
+                "id": "73570f8b-f7e6-4bd7-8dc8-0481dfec3cc4",
+                "type": "image-output",
+                "props": {
+                    "image": "get_image()"
+                },
+                "colStart": 4,
+                "rowStart": 6,
+                "colEnd": 7,
+                "rowEnd": 14,
+                "events": {}
+            },
+            "3509e2fd-e634-43d2-bf2c-b3185730c777": {
+                "id": "3509e2fd-e634-43d2-bf2c-b3185730c777",
+                "type": "image-input",
+                "props": {
+                    "label": "\"Upload\""
+                },
+                "colStart": 6,
+                "rowStart": 17,
+                "colEnd": 8,
+                "rowEnd": 20,
+                "events": {},
+                "variable": "image"
+            },
+            "4a3bf8f5-1f1b-47b1-b891-d2ff76f94f64": {
+                "id": "4a3bf8f5-1f1b-47b1-b891-d2ff76f94f64",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.38.jpeg'"
+                },
+                "colStart": 0,
+                "rowStart": 10,
+                "colEnd": 1,
+                "rowEnd": 14,
+                "events": {}
+            },
+            "c87bc8d9-4852-4354-a8e7-1220ca4bc7d3": {
+                "id": "c87bc8d9-4852-4354-a8e7-1220ca4bc7d3",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.24.jpeg'"
+                },
+                "colStart": 0,
+                "rowStart": 3,
+                "colEnd": 3,
+                "rowEnd": 7,
+                "events": {}
+            },
+            "a610517a-dec8-4193-8f71-5923f0ae374a": {
+                "id": "a610517a-dec8-4193-8f71-5923f0ae374a",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.110.jpeg'"
+                },
+                "colStart": 9,
+                "rowStart": 19,
+                "colEnd": 11,
+                "rowEnd": 22,
+                "events": {}
+            },
+            "6cae068f-fdef-4c79-9bdf-1d60d24a18b6": {
+                "id": "6cae068f-fdef-4c79-9bdf-1d60d24a18b6",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.60.jpeg'"
+                },
+                "colStart": 4,
+                "rowStart": 24,
+                "colEnd": 7,
+                "rowEnd": 28,
+                "events": {}
+            },
+            "f3d8cac5-c35d-4aa6-9166-eb051befdffd": {
+                "id": "f3d8cac5-c35d-4aa6-9166-eb051befdffd",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.46.jpeg'"
+                },
+                "colStart": 0,
+                "rowStart": 19,
+                "colEnd": 2,
+                "rowEnd": 23,
+                "events": {}
+            },
+            "4a6185a0-e842-4c1f-b1ef-f52860a20c20": {
+                "id": "4a6185a0-e842-4c1f-b1ef-f52860a20c20",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.123.jpeg'"
+                },
+                "colStart": 10,
+                "rowStart": 10,
+                "colEnd": 11,
+                "rowEnd": 14,
+                "events": {}
+            },
+            "de943c0c-b25c-4a9e-8b14-7006d68a9fb6": {
+                "id": "de943c0c-b25c-4a9e-8b14-7006d68a9fb6",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.129.jpeg'"
+                },
+                "colStart": 9,
+                "rowStart": 3,
+                "colEnd": 10,
+                "rowEnd": 7,
+                "events": {}
+            },
+            "7b0a3cf4-8a96-484a-88e6-4db3f45fc61a": {
+                "id": "7b0a3cf4-8a96-484a-88e6-4db3f45fc61a",
+                "type": "image-output",
+                "props": {
+                    "image": "'test/test.12.jpeg'"
+                },
+                "colStart": 4,
+                "rowStart": 0,
+                "colEnd": 7,
+                "rowEnd": 4,
+                "events": {}
+            }
+        }
+    },
+    "title": "Fruits"
+}
